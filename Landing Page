@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <link href="styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://img.freepik.com/free-vector/english-logo-design-template_23-2149505138.jpg?w=740">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#why_us">Why Us?</a></li>
+          <li><a class="nav-link" href="#courses">Courses</a></li>
+          <li><a class="nav-link" href="#offer">Offer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="content" id="get-started">
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit" name="email">
+          <label for="email">Join us and improve your <span>English!</span></label>
+          <input id="name" placeholder="Enter your name" type="text" name="name"></input>
+          <input id="email" placeholder="Enter your email address" type="email" name="email"></input>
+          <input id="submit" type="submit"></input>
+        </form>
+      </section>
+
+      <section class="content" id="why_us">
+<h1>Why Us?</h1>
+<ul id="reasons">
+  <h3>Competent Teachers</h3>
+  <li>Our teachers are English native speaker or has bachelor's degree in English language.</li>
+  <h3>Flexible Time</h3>
+  <li>We have flexible learning duration for students.</li>
+  <h3>Varied Courses</h3>
+  <li>We offer courses with a few level and different purposes to accommodate student's needs.</li>
+</ul>
+      </section>
+
+
+      <section class="content" id="courses">
+        <h1>Courses</h1>
+        <div class="card beginner">
+          <div class="beginner">
+            <h2>Beginner</h2>
+            
+            <ul>
+              <li>Study grammatical forms</li>
+              <li>Learn type of text and its main idea</li>
+              <li>Listen to conversation</li>
+            <ul>
+          </div>
+        </div>
+
+        <div class="card intermediate">
+          <div class="intermediate">
+            <h2>Intermediate</h2>
+            
+            <ul>
+              <li>Use grammars in sentence</li>
+              <li>Interpret text and write short essays</li>
+              <li>Give presentation</li>
+            <ul>
+          </div>
+        </div>
+        
+        <div class="card advanced">
+          <div class="advanced">
+            <h2>Advanced</h2>
+    
+            <ul>
+              <li>Use grammar in variety situations</li>
+              <li>Write essays</li>
+              <li>Participate in a debate</li>
+            <ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="content" id="media">
+        <iframe width="420" height="235" id="video" src="https://youtube.com/embed/nwb0PwiyE8w"></iframe>
+      </section>
+      
+      <section class="content" id="offer">
+        <h1>Offer</h1>
+        <div class="offer_content">
+          <p class="text_one">Take a test and start a 7 day free trial now!*</p>
+          <p class="text_two">*Valid till December 20, 2024</p>
+          <div class="pararrel">
+          <button id="apply">Apply</button>
+          <a href="https://imgbb.com/"><img src="https://i.ibb.co/sm7JB4J/education.png" alt="education" border="0" width="200vh"></a></div>
+          
+        </div>
+
+      </section>
+      
+    </main>
+
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org">English School</a><br />
+        Karet Kuningan<br />
+        South Jakarta<br />
+        Indonesia
+      </address>
+    </footer>
+
+  </body>
+</html>
